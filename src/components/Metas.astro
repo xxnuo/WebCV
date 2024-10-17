@@ -15,7 +15,7 @@ const { metas } = Astro.props;
         <Icon name={meta.icon} size="1.2rem" />
         <span>{meta.name}</span>
         {meta.link ? (
-          <a href={meta.link} class="link">
+          <a target="_blank" href={meta.link} class="link">
             {meta.content}
           </a>
         ) : (
