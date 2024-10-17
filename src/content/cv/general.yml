@@ -223,6 +223,8 @@ sections:
                   name: Nginx
                 - icon: BrandGithub
                   name: GitHub Actions
+              - - icon: BrandGithub
+                  name: Git
           - lines:
               - - icon: Terminal2
                   name: PVE
